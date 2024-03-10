@@ -4,6 +4,13 @@ console.log("Age:", age);
 var typeofAge = typeof age;
 console.log("Type of age is:", typeofAge);
 
+
+var count=107;
+console.log("Count Is:", count);
+
+var typeofCount = typeof count;
+console.log("Value Of count Is:", typeofCount);
+
 age = "Pune";
 var typeofAge = typeof age;
 console.log("After update age type id:", typeofAge);
