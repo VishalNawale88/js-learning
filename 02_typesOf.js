@@ -59,3 +59,10 @@ console.log("Total Count Is:", totalCount);
 
 var typeofCount = typeof totalCount;
 console.log("Value Of Total Count:", typeof totalCount);
+
+console.log("========== After Update==========");
+var totalCount=107;
+console.log("Total Count Is:", totalCount);
+
+var typeofCount = typeof totalCount;
+console.log("Value Of Total Count:", typeof totalCount);
