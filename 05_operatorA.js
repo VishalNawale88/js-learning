@@ -1,55 +1,25 @@
 
 console.log("======== Step = 1 ================");
-//1.Function with arguments and no return value
-function squareOfWordLength(greet){
-    var greet = "JavaScript";
-    var totalChars = greet.length;
-    //console.log("Total number of chars is:" , totalChars);
+//1.1 Function with arguments and no return value
+function squareOfWordLength(arg){
+    var result = arg.length;
+    return result*result;
+    
 }
-squareOfWordLength();
-var greet = 10;
-var result = greet * greet;
-console.log(`Length Square Of JavaScript: ${result}`);
-
-
-//1.Function with arguments and no return value
-function squareOfWordLength(greet){
-    var greet = "Google Chrome";
-    var totalChars = greet.length;
-    //console.log("Total number of chars is:" , totalChars);
-}
-squareOfWordLength();
-var greet = 13;
-var result = greet * greet;
-console.log(`Length Square Of Google Chrome is: ${result}`);
-
-
-//1.Function with arguments and no return value
-function squareOfWordLength(greet){
-    var greet = "Developer Smart";
-    var totalChars = greet.length;
-    //console.log("Total number of chars is:" , totalChars);
-}
-squareOfWordLength();
-var greet = 15;
-var result = greet * greet;
-console.log(`Length Square Of Developer Smart is: ${result}`);
-
+console.log(`Length Square of "JavaScript is" : ${squareOfWordLength("JavaScript")}`);
+console.log(`Length Square of "Google Chrome" is : ${squareOfWordLength("Google Chrome")}`);
+console.log(`Length Square of "Developer Smart" is : ${squareOfWordLength("Developer Smart")}`);
 
 console.log("======== Step = 2 ================");
-//2. Function with no arguments and no return value (Normal Function)
-function show(){
-    var word = "I am Angular Developer";
-    var totalChars = word.length;
-    //console.log("Total number of chars is:" , totalChars);
-}
-show();
-var n1 = 22;
-var n2 = 4; 
-var result = n1 / n2; 
-console.log(`String length after division is: ${result}`);
+function divideByTotalWord() {
+    var str="I am Angular Developer";
+    var strLength=str.length;
+    var newStr=str.split(" ");
+    var newStrLength =newStr.length;
+    var div=strLength/newStrLength;
+    var mul=strLength*newStrLength
+    console.log(`String length when divide by total number of words : ${div}`);
+    console.log(`String length when multiply with total number of words : ${mul}`);
 
-var n1 = 22;
-var n2 = 4; 
-var result = n1 * n2;
-console.log(`String length after multiplication is: ${result}`);
+}
+divideByTotalWord();
