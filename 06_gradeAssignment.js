@@ -1,6 +1,7 @@
 console.log("===================== Assignment = 2 ==============================");
 
-function gradeCalculation(marks){
+function gradeCalculation(marks)
+{
     if (marks>=90 && marks<=99) {
         console.log(`Fantastic Marks: ${marks}, Your Grade is A+`);
     } else {
@@ -18,7 +19,7 @@ function gradeCalculation(marks){
             if (marks==0 || marks<0 || marks>100 || isNaN(+marks)) {
                 console.log(`Invalid Input: ${marks}`);
             } else {
-                console.log(`You Are Failed: ${marks}`);
+                console.log(`Invalid Input: ${marks}`);
             }
     }
     }
