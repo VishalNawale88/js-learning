@@ -32,9 +32,9 @@ fruits_seasonal0.splice(2, 1, "Kiwi")
 console.log(fruits_seasonal0);
 
 console.log("=========================== 7TH Question Answer  =====================================");
-let subFruit_seasonal=fruit_seasonal.slice(1,4);
-console.log(`Element starting from index 1 to 4 : ${subFruit_seasonal}`);
+let subFruit_seasonal=fruits_seasonal0.slice(1,4);
+console.log(`Starting Elements from index 1 to 4 is: ${subFruit_seasonal}`);
 
 console.log("=========================== 8TH Question Answer  =====================================");
-let lastThree=fruits_seasonal0.slice(fruit_seasonal.length-3);
-console.log(`Last three element using length property : ${lastThree}`);
+let lastThree=fruits_seasonal0.slice(fruits_seasonal0.length-3);
+console.log(`Last three element using length property is: ${lastThree}`);

@@ -1,0 +1,53 @@
+console.log ("======================= Adding Minimum 5 Properties ==============================")
+
+let person = {
+    Name: "Astor",
+    City: "UK",
+    Age: "49",
+    DOB: "03-09-1975",
+    ContactNo:"1234567890",
+    Address: "Hamilton",
+}
+
+console.log(person);
+//console.table(person);
+
+console.log ("======================= Include Nested Object Degrees ==============================")
+
+let degrees = {
+    Engineering: "CSC",
+    PHD: "ADV Computing",
+}
+
+console.log(degrees);
+//console.table(degrees);
+
+console.log ("======================= Certificates with his certificate like ==============================")
+
+const Certificate = ["Hacker Rank Participation", "Certificate in IFCourse", "Certificate in Adv Programming"];
+console.log(Certificate); 
+
+console.log ("======================= Add New Property ==============================")
+
+person.Totalexperience = "14-Years";
+console.log(person);
+console.table(person);
+
+console.log ("======================= Last Element of Array ==============================")
+
+const len = Certificate.length;
+const element0 = Certificate[len-1];
+console.log(`Last element of the list: ${Certificate[2]}`);
+
+
+console.log ("======================= Complete Object in Console ==============================")
+console.log(person);
+
+
+
+console.log ("======================= Traversing Array Using For of Loop ==============================")
+const Certificates = ["Hacker Rank Participation", "Certificate in IFCourse", "Oracle Certified", "Certificate in Adv Programming"];
+for (let index = 0; index < Certificates.length; index++) {
+    const element = Certificates[index];
+    console.log(element);
+}
