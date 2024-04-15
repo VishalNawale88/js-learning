@@ -4,15 +4,15 @@
 
  
 console.log(`====== Step = 1 Answer ========`);
-const elementH1 = document.querySelector('h1');
-console.log(elementH1);
-console.log(elementH1.innerHTML);
+const mainHeading = document.querySelector('h1');
+console.log(mainHeading);
+console.log(mainHeading.innerHTML);
 
 console.log(`====== Step = 2 Answer ========`);
-const elementUI = document.querySelector('.ui');
-console.log(elementUI.innerHTML);
+const secondAdvantage = document.querySelector('.ui');
+console.log(secondAdvantage.innerHTML);
 
 console.log(`======= Step = 3 Answer =========`);
-const elementProfile = document.getElementById("advantages");
-console.log(elementProfile);
-console.log(elementProfile.innerHTML);
+const advDiv = document.getElementById("advantages");
+console.log(advDiv);
+console.log(advDiv.innerHTML);
