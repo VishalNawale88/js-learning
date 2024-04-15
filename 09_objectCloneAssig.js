@@ -65,7 +65,7 @@ let Traverse = {
     DueInterest: "20%",
 }
 
-for (let key in Traverse) {
+for (var key in Traverse) {
     if (Traverse.hasOwnProperty(key)) {
         console.log(key + " -> " + Traverse[key]);
     }
