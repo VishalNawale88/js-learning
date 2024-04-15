@@ -12,7 +12,7 @@ console.log(`====== Step = 2 Answer =======`);
 const elementUI = document.querySelector('.ui');
 console.log(elementUI.innerHTML);
 
-console.log(`====== Step = 3 Answer =========`);
+console.log(`====== Step = 3 Answer =======`);
 const elementProfile = document.getElementById("advantages");
 console.log(elementProfile);
 console.log(elementProfile.innerHTML);
